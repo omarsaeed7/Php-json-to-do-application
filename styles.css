@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1e1e1e;
+}
+button {
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px;
+}
+.content{
+    width: 100%;
+    padding: 15px;
+}
+.main{
+    width: 400px;
+    margin : 0px auto;
+    position: relative;
+}
+form{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+form div{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+form input{
+    background-color: transparent;
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1.5px solid red;
+    outline: none;
+    font-size: 18px;
+    color: #ffffff76;
+
+}
+form input:focus{
+    color: #fff;
+}
+form input::placeholder{
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+form input:focus::placeholder{
+    color: transparent;
+    
+}
+form button {
+    width: 20%;
+    background-color: rgb(255, 114, 114);
+}
+form button:hover{
+    color:#fff;
+    background-color: #e90f0f;
+}
+.task{
+    display: flex;
+    width: 420px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 3px ;
+    background-color: #e90f0f;
+    color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.task button {
+    width:80px;
+    font-size: 18px;
+}
+.task button:hover {
+    background-color: #f7ff1c;
+    color: #000;
+}
